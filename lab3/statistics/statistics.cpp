@@ -1,7 +1,7 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
 #include <cmath>
 
-#include "doctest.h"
+#include "../doctest.h"
 
 struct Statistics {
   double mean{};
