@@ -21,7 +21,7 @@ class Sample {
     sum_x2_ += x * x;
     sum_y_ += y;
     sum_xy_ += x * y;
-    N_++;
+    ++N_;
   }
 
   Coefficients coefficients() const {
@@ -40,7 +40,7 @@ TEST_CASE("Testing the class handling a floating point data sample") {
   sample.add(2.0, 3.0);
   sample.add(3.0, 2.0);
 
-  auto result = sample.coefficients();
-  CHECK(result.A == doctest::Approx(1.0));
-  CHECK(result.B == doctest::Approx(0.5));
+  auto [a, b] = sample.coefficients();
+  CHECK(a == doctest::Approx(1.0));
+  CHECK(b == doctest::Approx(0.5));
 }
