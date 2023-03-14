@@ -1,5 +1,8 @@
 #define DOCTEST_CONFIG_IMPLEMENT_WITH_MAIN
+#include <algorithm>
 #include <cmath>
+#include <iostream>
+#include <numeric>
 #include <vector>
 
 #include "../doctest.h"
@@ -18,18 +21,19 @@ class Sample {
   void add(double x) { entries_.push_back(x); }
 
   Statistics statistics() const {
-    double sum_x_{};
-    double sum_x2_{};
-    for (auto const& e : entries_) {
-      sum_x_ += e;
-      sum_x2_ += e * e;
-    }
+    struct Sums {
+      double x{};
+      double x2{};
+    };
+    auto sums_fold = [](Sums s, double x) {
+      return Sums{s.x + x, s.x2 + x * x};
+    };
+    Sums sum = std::accumulate(entries_.begin(), entries_.end(), Sums{}, sums_fold);
 
     const int N = entries_.size();
-    const double mean = sum_x_ / entries_.size();
-    const double sigma = std::sqrt((sum_x2_ - mean * mean * entries_.size()) /
-                                   (entries_.size() - 1));
-    const double mean_err = sigma / std::sqrt(entries_.size());
+    const double mean = sum.x / N;
+    const double sigma = std::sqrt((sum.x2 - mean * mean * N) / (N - 1));
+    const double mean_err = sigma / std::sqrt(N);
 
     auto entries{entries_};
     std::sort(entries.begin(), entries.end());
@@ -38,16 +42,16 @@ class Sample {
     return {mean, sigma, mean_err, median};
   }
 
-  std::size_t size() { return entries_.size(); }
+  int size() { return entries_.size(); }
 
   bool remove(double x) {
-    for (auto it = entries_.begin(); it != entries_.end(); it++) {
-      if (*it == x) {
-        entries_.erase(it);
-        return true;
-      }
+    auto it = std::find(entries_.begin(), entries_.end(), x);
+    if (it == entries_.end()) {
+      return false;
+    } else {
+      entries_.erase(it);
+      return true;
     }
-    return false;
   }
 
   const auto& entries() const { return entries_; }
