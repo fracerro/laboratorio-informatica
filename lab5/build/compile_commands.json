@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab5/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -std=gnu++17 -o CMakeFiles/statistics.t.dir/statistics.test.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab5/statistics.test.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab5/statistics.test.cpp",
+  "output": "CMakeFiles/statistics.t.dir/statistics.test.cpp.o"
+},
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab5/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -std=gnu++17 -o CMakeFiles/statistics.t.dir/statistics.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab5/statistics.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab5/statistics.cpp",
+  "output": "CMakeFiles/statistics.t.dir/statistics.cpp.o"
+}
+]

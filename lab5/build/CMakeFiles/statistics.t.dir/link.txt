@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra CMakeFiles/statistics.t.dir/statistics.test.cpp.o CMakeFiles/statistics.t.dir/statistics.cpp.o -o statistics.t 
