@@ -1,0 +1,50 @@
+[
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/chain.dir/source/main.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab7/source/main.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/source/main.cpp",
+  "output": "CMakeFiles/chain.dir/source/main.cpp.o"
+},
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/chain.dir/source/chain.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab7/source/chain.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/source/chain.cpp",
+  "output": "CMakeFiles/chain.dir/source/chain.cpp.o"
+},
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/chain.dir/source/hooke.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab7/source/hooke.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/source/hooke.cpp",
+  "output": "CMakeFiles/chain.dir/source/hooke.cpp.o"
+},
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/hooke.t.dir/source/hooke.test.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab7/source/hooke.test.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/source/hooke.test.cpp",
+  "output": "CMakeFiles/hooke.t.dir/source/hooke.test.cpp.o"
+},
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/hooke.t.dir/source/hooke.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab7/source/hooke.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/source/hooke.cpp",
+  "output": "CMakeFiles/hooke.t.dir/source/hooke.cpp.o"
+},
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/chain.t.dir/source/chain.test.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab7/source/chain.test.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/source/chain.test.cpp",
+  "output": "CMakeFiles/chain.t.dir/source/chain.test.cpp.o"
+},
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/chain.t.dir/source/chain.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab7/source/chain.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/source/chain.cpp",
+  "output": "CMakeFiles/chain.t.dir/source/chain.cpp.o"
+},
+{
+  "directory": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/build",
+  "command": "/usr/bin/c++    -Wall -Wextra -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles/chain.t.dir/source/hooke.cpp.o -c /home/francesco/uni/informatica/laboratorio-informatica/lab7/source/hooke.cpp",
+  "file": "/home/francesco/uni/informatica/laboratorio-informatica/lab7/source/hooke.cpp",
+  "output": "CMakeFiles/chain.t.dir/source/hooke.cpp.o"
+}
+]

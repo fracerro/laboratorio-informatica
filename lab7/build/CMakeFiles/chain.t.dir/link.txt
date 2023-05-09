@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -O3 -DNDEBUG CMakeFiles/chain.t.dir/source/chain.test.cpp.o CMakeFiles/chain.t.dir/source/chain.cpp.o CMakeFiles/chain.t.dir/source/hooke.cpp.o -o chain.t 
